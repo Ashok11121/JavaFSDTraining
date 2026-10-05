@@ -1,0 +1,81 @@
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid red;
+    background-image: linear-gradient(to 45deg, #ff0000, #ff9900);
+    background-color: rgb(204, 242, 13);
+}
+header>img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px orange;
+}
+header ol {
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+}
+header ol li {
+    text-align: center;
+    background-color: alicebule;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+header ol li:hover {
+    background-color: bisque;
+    box-shadow: 4px 4px 4px aliceblue;
+    transform: skew(30deg);
+}
+header ol li a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+#title-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 3px 3px 3px black;
+    z-index: 2;
+    text-align: center;
+}
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkgray;
+    width: 270px;
+    position:relative;
+    top: -300px;
+}
+@media screen and (min-width:450px) and (max-width: 1008px) {
+    .card {
+        background-color: brown;
+        position: relative;
+        top:-150px;
+    }
+    
+}
+.card-header>img {
+    width: 250px;
+    height: 350px;
+}

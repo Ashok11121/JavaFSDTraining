@@ -1,0 +1,138 @@
+List in Html
+================
+->It is used to display items in organised way.
+Types:
+1.Ordered List
+   -><ol> </ol> represents the ordered list using that
+   -><ol> </ol> contains list of items.
+2.Unordered List
+3.Discription / Definition List
+   -><dl> <dl> => represents the description list
+   -><dt> <dt> => reprents the description term
+   -><dd> <dd> => reprents the description data
+4.Nested List
+   -> list inside another list
+Forms
+======
+1.tags : 
+	<form> </form>
+	<fieldset> </fieldset>
+	<legend> </legend>
+	<input>
+	<select> </select> ---> <option> </option>
+	<button> </button>
+	<textarea> </textarea>
+JavaScript
+==========
+	->js is scripting language as well as programming language.
+	->js is Dynamically typed programming.
+	->js having single call stack.
+Uses:
+-----
+	->using js we can build the dynamic web applications.
+	->using js we can add funtionalities to web pages.
+	->Here we can acjieve DOM(Document Object Model) funtionalities using that we can manipulate HTML and CSS.
+	->We can fetch data from the server(API's) and also send data to server.
+Evolution:
+----------
+	->mocha -> 1995 -> net scape(browser company)
+	|
+	->live script
+	|
+	->JavaScript
+	|
+	ECMA->1996->ES1(ECMA script version 1)
+	->stable version is ES6
+	->present version is ES16
+Implements:
+-----------
+	->Inline js
+	->Internal js
+	->External js
+***write and come 15 browser names and their respective js engine names? and depricated keywords in js***
+Tokens:
+=======
+	->tokens are the smallest units in js code.
+	Types:
+	------
+		->identifiers=>
+		->keywords
+		->literals
+		->comments
+		->seperators
+		->operators
+Arrays:
+=======
+->Implements
+	->using literals.
+	->using new keyword.
+Loops:
+======
+	1.for Loop
+	2.while Loop
+	3.Do-while Loop
+	4.for-of Loop
+	5.for-in Loop
+	6.forEach Loop
+Objects:
+========
+	->objects are the real time entities used to store data in the form of key and value pair.
+	Implements:
+	-----------
+	1.literal way
+			syntax:
+				variableType variableName = {
+					key1 = val1,
+					key2 = val2,
+				}
+	2.using new keyword
+			syntax:
+				variableType variableName = new Object({
+					key1 = val1,
+					key2 = val2
+				})
+Functions:
+----------
+	->functions are the block of statements which will get execute when ever it calls.
+	Notes:
+	------
+		->using functions we can perform code resuability.
+		->And also increase code readability.
+	Types:
+	------
+		->user defined Functions.
+		->PreDefine Functions.
+	In js we can declare functions in many ways
+	-------------------------------------------
+	->Anonymous Function
+	->Normal/Named function
+	->Functional Expression
+	->First Class Function
+	->Immediate Invoking function(IIf)/self calling Function
+	->Arrow Function
+	->Nested Function
+	->Higher order Function
+	->Callback Function
+	->Generator Function
+Transitions:
+============
+Transitions enables you to define the transition between two states of an element.
+1.transition-property: property you want to transition 
+2.transition-duration:2s/4ms
+3.transition-timing-function:ease-in/ease-out/linear/steps
+4.transition-delay:2s/4ms
+Css Transform:
+==============
+1.rotate
+2.scale
+	.transform: scale(2);
+	.transform: scale(1,2);
+	.transform: scaleX(0.5);
+	.transform: scaleY(0.5);
+3.translate
+	.transform: translate(20px);
+	.transform: translate(20px,50px);
+	.transform: translateX(20px);
+	.transform: translateY(20px);
+4.skew
+	.transform: skew(30deg);
