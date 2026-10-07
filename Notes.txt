@@ -136,3 +136,54 @@ Css Transform:
 	.transform: translateY(20px);
 4.skew
 	.transform: skew(30deg);
+Animation:
+==========
+To anime 
+Propeties:
+----------
+ ->animation-names
+ ->animation-duration
+ ->animation-timing-function
+ ->animation-delay
+ ->animation-iteration-count
+ ->animation-direction
+ ex:animation:myName 2s linear 3s infinite normal
+ %Animation:
+ -----------
+  eg:
+		@keyframes myName{
+			0%(font-size: 20px)
+			50%(font-size: 30px)
+			100%(font-size: 40px)
+		}
+Media Queries:
+--------------
+Help create a responsive website
+@media(width: 600px){
+	div{
+		background-color: red;
+	}
+}
+@media(min-width: 600px){
+	div{
+		background-color: red;
+	}
+}
+@media(min-width: 200px) and (min-width: 300px){
+	div{
+		background-color: red;
+	}
+}
+Position:
+=========
+->static => default Position.
+->relative => element is relative to itself.
+->absolute => positioned relative to its closed positioned ancestor. 
+->fixed => positioned relative to browser.
+->sticky => positioned based on user's scroll position.
+Z-index:
+--------
+.It descides the stack level of elements.
+.Overtapping elements with a larger z-index cover those with a smaller one.
+
+
