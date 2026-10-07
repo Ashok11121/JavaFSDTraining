@@ -55,7 +55,7 @@ Tokens:
 	->tokens are the smallest units in js code.
 	Types:
 	------
-		->identifiers=>
+		->identifiers
 		->keywords
 		->literals
 		->comments
